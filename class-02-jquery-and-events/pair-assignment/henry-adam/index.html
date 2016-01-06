@@ -18,7 +18,6 @@
     </header>
     <nav class="main-nav">
       <ul>
-        <!-- TODO: Use one of the icons from the available set for each of these nav items... -->
         <li class="tab icon-home" data-content="articles"><a href="#"> Home</a></li>
         <li class="tab icon-rocket" data-content="about"><a href="#"> About</a></li>
         <li class="tab icon-twitter3"><a href="http://twitter.com/brookr" target="_blank"> Twitter</a></li>
@@ -31,12 +30,12 @@
           <ul id="filters">
             <li>
               <select id="author-filter">
-                <option value="">-- Filter by Authors --</option>
+                <option value="data-author">-- Filter by Authors --</option>
               </select>
             </li>
             <li>
               <select id="category-filter">
-                <option value="">-- Filter by Categories --</option>
+                <option value="data-category">-- Filter by Categories --</option>
               </select>
             </li>
           </ul>
@@ -71,8 +70,8 @@
       &copy; 2015 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="scripts/articleView.js"></script>
     <script src="scripts/blogArticles.js"></script>
     <script src="scripts/article.js"></script>
+    <script src="scripts/articleView.js"></script>
   </body>
 </html>
