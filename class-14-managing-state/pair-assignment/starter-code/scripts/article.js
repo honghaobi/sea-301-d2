@@ -65,6 +65,7 @@
   };
 
   Article.loadAll = function(rows) {
+    console.log(rows);
     Article.all = rows.map(function(ele) {
       return new Article(ele);
     });

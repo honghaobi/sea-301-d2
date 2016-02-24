@@ -74,6 +74,7 @@ Article.allAuthors = function() {
   .filter(function(e, i, value){
     console.log('e - ' + e); // individual author
     console.log('i - ' + i); // index
+    console.log('value indexOf -' + value.indexOf(e));
     console.log('value - ' + value); // all of the authors
     return value.lastIndexOf(e) === i;
   });
